@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const r = Math.floor(Math.random() * 9 + 1);
+      console.log(r);
+
+      let num = 0;
+      while (num < 3) {
+        const a = Number(prompt("Enter a number"));
+        // if (window.location.reload) {
+        //   alert("are you sure?");
+        // }
+        if (a < r) {
+          console.log("Nah too low");
+          alert("Nah too low");
+        } else if (a > r) {
+          console.log("Nah too high");
+          alert("Nah too high");
+        } else {
+          console.log("Right guess. yay yay yay");
+          alert("Right guess. yay yay yay");
+          break;
+        }
+        num++;
+      }
+      if (num == 3) {
+        alert("Sorry you reached maximum tries");
+      }
+    </script>
+  </body>
+</html>
