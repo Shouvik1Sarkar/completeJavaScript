@@ -1,0 +1,11 @@
+{
+  "name": "completejavascript",
+  "version": "1.0.0",
+  "description": "try cli",
+  "main": "Piyudh_JS/API/gitHub/script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "shouvik",
+  "license": "ISC"
+}
